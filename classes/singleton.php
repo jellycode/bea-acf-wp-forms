@@ -37,7 +37,7 @@ trait Singleton {
 	 *
 	 * @return void
 	 */
-	final private function __clone() {}
+	private function __clone() {}
 
 	/**
 	 * prevent from being unserialized
